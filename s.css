@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.main{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    position: relative;
+}
+.Storiyan{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #e6e4e4;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.Storiyan::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin-top: 12px;
+    margin-left: 8px;
+    display: inline-block;
+    overflow: hidden;
+   
+    
+}
+.story img{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    object-fit: cover;
+    
+
+
+}
+.full{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
+
